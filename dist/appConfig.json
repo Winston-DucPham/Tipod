@@ -1,0 +1,35 @@
+{
+  "window": {
+    "defaultTitle": "Tipod App"
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/list/index",
+    "pages/TV/index",
+    "pages/radio/index",
+    "pages/record/index",
+    "pages/play/index"
+  ],
+  "usingComponents": {},
+  "componentConfig": {},
+  "launchParams": {
+    "pages/index/index": {
+      "defaultTitle": "Tipod App"
+    },
+    "pages/list/index": {
+      "defaultTitle": "Tipod App"
+    },
+    "pages/TV/index": {
+      "defaultTitle": "Tipod App"
+    },
+    "pages/radio/index": {
+      "defaultTitle": "Tipod App"
+    },
+    "pages/record/index": {
+      "defaultTitle": "Tipod App"
+    },
+    "pages/play/index": {
+      "defaultTitle": "Tipod App"
+    }
+  }
+}
