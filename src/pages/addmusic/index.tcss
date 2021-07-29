@@ -1,0 +1,50 @@
+.body2{
+  background-color: white;
+}
+.videoplay {
+
+  
+  height: 834rpx;
+  
+}
+.videoplay video{
+  
+  height: 834rpx;
+  width: 100%;
+}
+.mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.mark image {
+  width: 179px;
+  height: 49px;
+ 
+}
+.playback-controls {
+  margin-top: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+}
+
+.playback-controls .col {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playpausebutton {
+  width: 124rpx;
+  height: 124rpx;
+  margin: 87rpx;
+}
+
+.nowplaying-controls {
+  margin: 16px 0px;
+}

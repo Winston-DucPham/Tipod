@@ -1,0 +1,112 @@
+.body{
+  background: #FFFFFF;
+}
+.slide{
+  margin-left: 24rpx;
+  float: left;
+}
+.text1container{
+  
+  Font-size: 46rpx;
+  font-weight: bold;
+  margin-top:20rpx;
+  display: flex;
+  flex-direction: row;
+}
+.group64container{
+  width: 630rpx;
+  height: 238.8rpx;
+  border:3px;
+ 
+  margin-top:20rpx;
+  margin-left: 48rpx;
+  margin-right: 50rpx;
+  display: flex;
+  flex-direction: row;
+  
+}
+.group64{
+  width: 250rpx;
+  height: 250rpx;
+  
+
+}
+.group64 image{
+  width: 300rpx;
+  height: 300rpx;
+  
+}
+
+.groupbuttonshare {
+  width: 618.28rpx;
+  height: 127.14rpx;
+  margin-left: 44rpx;
+  margin-top: 66rpx;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+
+}
+
+.groupsharebutton{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.back {
+  
+  margin-top: 20rpx;
+  background: #F4F4F4;
+  border-radius: 60rpx 60rpx 0rpx 0rpx;
+}
+.container {
+  border: 3rpx solid #4CAF50;
+  padding: 5rpx;
+  margin-top: 50rpx;
+  margin-left: 24rpx;
+  width: 365rpx;
+  height: 110rpx;
+  
+}
+.container .image-container{
+  text-align: left;
+  vertical-align: center;
+}
+.episode{
+ 
+ width: 174rpx;
+ height: 68rpx;
+ font-size: 48rpx;
+ font-weight: 600rpx;
+ margin-top: 45rpx;
+ margin-left: 50rpx;
+
+}
+.addnew{
+  margin-left: 278.88rpx;
+  margin-top: 56rpx;
+  width: 222.24rpx;
+  height: 56rpx;
+}
+.listitem{
+  width: 666rpx;
+  height: 180rpx;
+  margin-left: 48rpx;
+  margin-top:20rpx;
+}
+
+.membership{
+  width: 416rpx;
+  height: 54rpx;
+  margin-left: 150rpx;
+}
+.author{
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 40rpx;
+  color: rgb(179, 179, 179);
+}

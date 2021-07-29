@@ -1,0 +1,33 @@
+<view class="body">
+  <view class="group64container">
+    <view class="group64">
+      <image src="/images/group 64.png" />
+    </view>
+    <view>
+      <text class="text1container">Chỉ Tình Thương Ở Lại</text>
+      <text class="author"> Minh Niệm</text>
+    </view>
+  </view>
+  <view class="groupbuttonshare">
+    <image src="/images/group 91.png" style="width:96.63px;height:63.57px;" />
+    <image src="/images/group 89.png" style="width:55px;height:63.57px;" />
+    <image src="/images/group 88.png" style="width:84px;height:63.57px;" />
+
+  </view>
+
+  <view class="back">
+    <view style="display: flex;flex-direction: row">
+      <text class="episode"> Episode</text>
+      <image class="addnew" src="/images/group 34.png" />
+    </view>
+    <view style="display: flex;flex-direction: column">
+      <view onTap="navigateTo">
+        <image src="/images/group 72.png" class="listitem" />
+      </view>
+      <image src="/images/group 68.png" class="listitem" />
+      <image src="/images/Group 73-1.png" class="listitem" />
+      <image src="/images/group 74.png" class="listitem" />
+      <image src="/images/group 75.png" class="listitem" />
+    </view>
+  </view>
+</view>

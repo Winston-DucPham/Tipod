@@ -1,0 +1,53 @@
+<view>
+  <text class="title">Podcast</text>
+  <view class="container" >
+    <carousel onChange="onChange" class="t-carousel-item">
+      <carousel-item class="t-carousel-item">
+        <view onTap="navigateTo">
+          <image src="/images/Group 98.png" class="slide" />
+        </view>
+      </carousel-item>
+      <carousel-item class="t-carousel-item">
+        <view onTap="navigateTo">
+          <image src="/images/Group 102.png" class="slide2" />
+        </view>
+      </carousel-item>
+      <carousel-item class="t-carousel-item">
+        <view onTap="navigateTo">
+          <image src="/images/Group 102.png" class="slide3" />
+        </view>
+      </carousel-item>
+      <carousel-item class="t-carousel-item">
+        <view onTap="navigateTo">
+          <image src="/images/Group 102.png" class="slide4" />
+        </view>
+      </carousel-item>
+    </carousel>
+    
+    <text class="top_artist"> Top Artist </text>
+
+    <carousel onChange="onChange">
+      <carousel-item>
+        <view onTap="navigateTo">
+          <image src="/images/artist.png" class="artists"  />
+        </view>
+      </carousel-item>
+
+      <carousel-item class="t-carousel_slides_artist">
+        <image src="/images/Artist2.png"  class="artists2" />
+      </carousel-item>
+      
+      <carousel-item class="t-carousel_slides_artist">
+        <image src="/images/artist3.png"  class="artists3" />
+      </carousel-item>
+
+
+    </carousel>
+  </view>
+  <text class="recommend"> Recommend </text>
+  <view style="margin-top: 25px">
+    <image src="/images/Group 68.png" class="group_recommend" />
+    <image src="/images/Group 100.png" class="group_recommend" />
+  </view>
+
+</view>

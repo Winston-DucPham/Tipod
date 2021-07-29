@@ -1,0 +1,93 @@
+<!--- UI Custom Audio palyer -->
+<view style="background-color: #FFFFFF;">
+  <view class="nowplaying-container">
+    <view class="nowplaying-metadata">
+      <view class="metadata">
+        <view class="metadata-body">
+          <view class="album-art">
+            <image src="/images/Group 64-1.png" />
+          </view>
+        </view>
+        <view class="name">
+          <text>Vượt qua nỗi hoang mang</text>
+        </view>
+        <view class="author">
+          <text>Minh Niệm</text>
+        </view>
+      </view>
+      <view class="wave">
+        <image src="/images/waveform.jpg" />
+      </view>
+    </view>
+
+    <view class="nowplaying-controls">
+      <view class="progress-bar">
+        <view class="rangebar-container">
+          <view class="rangebar-fill" style="width: {{progressPercent}}%"></view>
+        </view>
+        <view class="progress-timer">
+          <text style="color: black;">{{progress}}</text>
+          <text style="color: black;">{{duration}}</text>
+        </view>
+      </view>
+      <view class="playback-controls">
+
+        <view class="col">
+          <view class="button">
+            <image src="/images/Live area-3.png" class="controlbutton" />
+          </view>
+        </view>
+
+        <view class="col">
+          <view class="button" onTap="seekPrev">
+            <image src="/images/Live area-2.png" class="controlbutton" />
+          </view>
+        </view>
+
+        <view class="col">
+          <view class="play-button" tiki:if="{{!playing}}" onTap="playTap">
+            <image src="/images/Button.png" class="playpausebutton" />
+          </view>
+
+          <view class="play-button" tiki:else onTap="pauseTap">
+            <image src="/images/Button2.png" class="playpausebutton" />
+          </view>
+        </view>
+
+        <view class="col">
+          <view class="button" onTap="seekNext">
+            <image src="/images/Live area-1.png" class="controlbutton" />
+          </view>
+        </view>
+
+        <view class="col">
+          <view class="button">
+            <image src="/images/Live area.png" class="controlbutton" />
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- hidden audio -->
+    <audio id="audio1" loop="true"
+      style="display: none"
+      src="https://dev-tikiscp.tbox.vn/miniapps/miki/thiendang.mp3" onTimeUpdate="onAudioTimeUpdate"
+      onPlay="onAudioPlay" onEnd="onAudioEnd" onPause="onAudioPause" />
+  </view>
+  <view class="back">
+    <view class="group-comment">
+      <image src="/images/Artist2.png" class="image_circle" />
+      <view class="comment">
+        <text class="author"> Minh Niệm</text>
+        <text class="text1container">Quyển sách này rất hay, Tiki đang sale chỉ 54k thôi nhé cả nhà!!</text>
+        <image src="/images/Engagements.png" class="share-control" />
+      </view>
+    </view>
+    <view class="webviewss">
+      <image src="/images/IMG_0284.png" />
+    </view>
+  </view>
+  <view class="books">
+    <image src="/images/SP.png" />
+
+  </view>
+</view>

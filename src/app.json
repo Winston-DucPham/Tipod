@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/index",
+    "pages/TV/index",
+    "pages/radio/index",
+    "pages/record/index",
+    "pages/play/index",
+    "pages/edit/index",
+    "pages/addmusic/index"
+  ],
+  
+  "defaultTitle": "List",
+  "usingComponents": {
+    "list-item": "@tiki.vn/tini-ui/es/list/list-item/index"
+  },
+  "window": {
+    "defaultTitle": "Tipod App"
+  },
+   "tabBar": {
+    "items": [
+      {
+        "name": "",
+        "pagePath": "pages/index/index",
+        "icon": "https://drive.google.com/uc?export=view&id=1CYZpWSaMSpDLGgqPZ4ZVuVgxDfXnzxl1",
+        "activeIcon": "https://drive.google.com/uc?export=view&id=1CYZpWSaMSpDLGgqPZ4ZVuVgxDfXnzxl1"
+      },
+      {
+        "name": "",
+        "pagePath": "pages/TV/index",
+        "icon": "https://drive.google.com/uc?export=view&id=1JElID78oqx0i0t3rkH9_8Rh_K5khNid6",
+        "activeIcon": "https://drive.google.com/uc?export=view&id=1JElID78oqx0i0t3rkH9_8Rh_K5khNid6"
+      },
+      {
+        "name": "",
+        "pagePath": "pages/record/index",
+        "icon": "https://drive.google.com/uc?export=view&id=1jo8rSNZyPDP2W95LHU6Iyk-obwFpKaR4",
+        "activeIcon": "https://drive.google.com/uc?export=view&id=1jo8rSNZyPDP2W95LHU6Iyk-obwFpKaR4"
+      },
+      {
+        "name": "",
+        "pagePath": "pages/radio/index",
+        "icon": "https://drive.google.com/uc?export=view&id=1BKhNpmIiR_z-YdiZoULhowIOTYom-jmj",
+        "activeIcon": "https://drive.google.com/uc?export=view&id=1BKhNpmIiR_z-YdiZoULhowIOTYom-jmj"
+      },
+      {
+        "name": "",
+        "pagePath": "https://drive.google.com/uc?export=view&id=1MOxj6zZ0g0eD5J9Ek-2ez4eEEVwGdmpo",
+        "icon": "https://drive.google.com/uc?export=view&id=1MOxj6zZ0g0eD5J9Ek-2ez4eEEVwGdmpo",
+        "activeIcon": "images/Bell.png"
+      }
+    ]
+  }
+}
