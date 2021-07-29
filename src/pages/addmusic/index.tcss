@@ -1,50 +1,35 @@
-.body2{
-  background-color: white;
-}
-.videoplay {
-
+.search{
+  width: 670rpx;
+  height: 120rpx;
+  margin-left: 48rpx;
+  margin-right: 48rpx;
+  margin-top: 54rpx;
+  object-fit: fill;
   
-  height: 834rpx;
-  
-}
-.videoplay video{
-  
-  height: 834rpx;
-  width: 100%;
-}
-.mark {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-}
-.mark image {
-  width: 179px;
-  height: 49px;
- 
-}
-.playback-controls {
-  margin-top: 100rpx;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  background-color: white;
 }
 
-.playback-controls .col {
-  flex-basis: 20%;
+.search image {
+  width: 670rpx;
+  height: 120rpx;
+}
+
+.listmusic {
+  width: 670rpx;
+  height: 100%;
+  margin-left: 48rpx;
+  margin-right: 48rpx;
+  margin-top: 84rpx;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
-.playpausebutton {
-  width: 124rpx;
-  height: 124rpx;
-  margin: 87rpx;
+.listmusic text {
+  font-size: 15;
+  margin: 15rpx;
 }
 
-.nowplaying-controls {
-  margin: 16px 0px;
+.listmusic image {
+  width: 670rpx;
+  height: 176rpx;
+  margin-top: 26rpx;
 }

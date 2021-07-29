@@ -24,7 +24,7 @@
         <image src="/images/record.png" class="playpausebutton" />
       </view>
 
-      <view class="play-button">
+      <view class="play-button" onTap="navigateTo">
         <image src="/images/done.png" class="playpausebutton" />
       </view>
 

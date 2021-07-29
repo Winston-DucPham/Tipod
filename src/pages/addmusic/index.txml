@@ -1,35 +1,13 @@
-<view style="background-color: white">
-  <view class="videoplay">
-    <video id="video" src="/images/waveform (1).mp4" controls="false" onTimeUpdate="onAudioTimeUpdate"
-      
-    onPlay="onAudioPlay" onEnd="onAudioEnd" onPause="onAudioPause" />
-  </view>
+<view class="search">
+  <image src="/images/Group 80.png" />
+</view>
 
-  <view class="mark">
-    <image src="/images/mark.png" />
-  </view>
-  <view class="playback-controls">
-
-    <view class="col">
-      <view class="play-button" tiki:if="{{!playing}}" onTap="playTap">
-        <image src="/images/record.png" class="playpausebutton" />
-      </view>
-      <block tiki:else>  
-
-      <view class="play-button">
-        <image src="/images/edit.png" class="playpausebutton" />
-      </view>
-
-
-      <view class="play-button" onTap="pauseTap">
-        <image src="/images/record.png" class="playpausebutton" />
-      </view>
-
-      <view class="play-button">
-        <image src="/images/done.png" class="playpausebutton" />
-      </view>
-
-      </block>
-    </view>
-  </view>
+<view class="listmusic">
+  <text>Nhạc Piano</text>
+  <image src="/images/Group 72.png" />
+  <image src="/images/Group 73.png" />
+  <image src="/images/Group 74.png" />
+  <text>Nhạc vui vẻ</text>
+  <image src="/images/Group 75.png" />
+  <image src="/images/Group 76.png" />
 </view>

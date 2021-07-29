@@ -27,4 +27,7 @@ Page({
     this.audioContext.pause();
     this.setData({ playing })
   },
+  navigateTo(){
+    my.navigateTo({url:'pages/addmusic/index'});
+  }
 })
