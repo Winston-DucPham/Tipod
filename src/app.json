@@ -6,8 +6,9 @@
     "pages/radio/index",
     "pages/record/index",
     "pages/play/index",
-    "pages/edit/index",
-    "pages/addmusic/index"
+    "pages/addmusic/index",
+    "pages/edit/index"
+    
   ],
   
   "defaultTitle": "List",
