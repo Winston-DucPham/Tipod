@@ -1,7 +1,7 @@
 if (self !== global) self = global;
 if(!self.__tfAppInited) {
  self.__tfAppInited = 1;
-require('./config.js?hash=a58059d5eaa2c584230080db7dfbdc658c4bbec6');
+require('./config.js?hash=e6bd5a9ae3bd05b74327468a9d513d5aa0579d33');
 
 const TFApp = self.TFApp.getAppContext
   ? self.TFApp.getAppContext().TFApp
@@ -22,15 +22,15 @@ if (TFApp.registerApp) {
 }
 
  function success() {
-require('../app.js?hash=da9de61bac638693b784e567438d87684a998e14');
-require('../pages/index/index?hash=ee0dbcb8c6979fd06a8b9e284b44dd1b296509cf');
-require('../pages/list/index?hash=1bdcd89cd1260fd3f602a9632fc98a313c768382');
-require('../pages/TV/index?hash=bdac436e26130b8657c025308b7e898f759113b3');
-require('../pages/radio/index?hash=00e31edad1de6091c5ce5e20a39318adcec5c1a3');
-require('../pages/record/index?hash=7867db12d5eceb3855307b1f23331d81ab0e40bf');
-require('../pages/play/index?hash=19a57712a29b1f72ad7fa17796b1aa48c0b4a60f');
-require('../pages/addmusic/index?hash=735d314960f246964e3ec9ca24be79214870af09');
-require('../pages/edit/index?hash=94ad2db4e9edeb7fb2605d089ad38868075302de');
+require('../app.js?hash=7da28690e62a92a3a71b6b8c4cf9ca77f4de0b94');
+require('../pages/index/index?hash=0bdcb120753cb8900b2c96d4d608dbc422119a89');
+require('../pages/list/index?hash=c6516abc0ed525e240e20a6460368bd7051681fb');
+require('../pages/TV/index?hash=620349a132835357f9c7f013afe9752e48534f80');
+require('../pages/radio/index?hash=d5c4b0e9eed7a0db71621754ac3001e835502973');
+require('../pages/record/index?hash=2ce9dc74797a3e68f937af21e36d8da04d5f07dc');
+require('../pages/play/index?hash=6baad681d31923efa725de98ab9f163614be87af');
+require('../pages/addmusic/index?hash=cf041f87d9ea5f765911b7fdaa0d933b799cea4b');
+require('../pages/edit/index?hash=cd64a0efcffbfa583591f394ff3760069a63ad0e');
  }
  self.TFApp.bootstrapApp({ success });
 }
