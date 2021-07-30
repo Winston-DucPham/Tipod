@@ -24,7 +24,7 @@
       </carousel-item>
     </carousel>
     
-    <text class="top_artist"> Top Artist </text>
+    <text class="top_artist"> Kênh nổi bật </text>
 
     <carousel onChange="onChange">
       <carousel-item>
@@ -44,7 +44,7 @@
 
     </carousel>
   </view>
-  <text class="recommend"> Recommend </text>
+  <text class="recommend"> Chọn riêng cho bạn </text>
   <view style="margin-top: 25px">
     <image src="/images/Group 68.png" class="group_recommend" />
     <image src="/images/Group 100.png" class="group_recommend" />
