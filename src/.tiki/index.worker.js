@@ -1,7 +1,7 @@
 if (self !== global) self = global;
 if(!self.__tfAppInited) {
  self.__tfAppInited = 1;
-require('./config.js?hash=f4b21167e1a31551405750a7e3b284c84b19cc7e');
+require('./config.js?hash=cb10b84b2947af20e093799bfa72c5e2e48bda03');
 
 const TFApp = self.TFApp.getAppContext
   ? self.TFApp.getAppContext().TFApp
@@ -22,13 +22,15 @@ if (TFApp.registerApp) {
 }
 
  function success() {
-require('../app.js?hash=7bb21e238b9b6b10816c60875ee186aaff72e6d4');
-require('../pages/index/index?hash=04b61f676a278c8aac70910d4ea14ccd6f34ec9c');
-require('../pages/list/index?hash=cfccc7370a96459d2f58665c91199265bb3ab1bc');
-require('../pages/TV/index?hash=43556711fb6ae084649f379c44da139a1329946c');
-require('../pages/radio/index?hash=5e0457e68509344055214ce5f04b5de6c2b0cebc');
-require('../pages/record/index?hash=de045f537a96d49ae95a49aa48da3ba6bb7b02c8');
-require('../pages/play/index?hash=8c2d6592843ea210ff06a2fdeb01fd5801b976d1');
+require('../app.js?hash=9db18e0f9f4ae8986e1524af79c094a47f1ea85a');
+require('../pages/index/index?hash=a4d2283512c0a55dd908e8b3aad8743893f0b883');
+require('../pages/list/index?hash=ce794972794e36f065bea565fe4e23b44709dde2');
+require('../pages/TV/index?hash=0e1eb0a230293c451d735211f0ae83945b955795');
+require('../pages/radio/index?hash=bb5a418198d75f9e15ffac171f50b768c395d368');
+require('../pages/record/index?hash=ef4c81d05bd149cde0548548459ed75bbd5ee80a');
+require('../pages/play/index?hash=039e6b527e52da7ef8eff280017ab34090b654ef');
+require('../pages/addmusic/index?hash=d22442547b594198768f388cc151f7a0c98c218a');
+require('../pages/edit/index?hash=5fa1afa5aebbd59b6bf4b9d6c909162084f680c6');
  }
  self.TFApp.bootstrapApp({ success });
 }

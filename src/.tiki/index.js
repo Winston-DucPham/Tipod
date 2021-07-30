@@ -1,7 +1,9 @@
-require('./config?hash=d3a40d5321fb11671ed1bd6974590671c6f76b5f');
-require('../pages/index/index?hash=a3ca5dffa31a187b1e02409515d7e37f277ce2e4');
-require('../pages/list/index?hash=144b3c29c19b4ce1e6f876163cb3e5625b566551');
-require('../pages/TV/index?hash=ebca65a8c57ccc35ebff586e9396793de82868c6');
-require('../pages/radio/index?hash=4a92452d413467d4cce7a2a8a3558427effb236b');
-require('../pages/record/index?hash=3fe8bf82ea56910322cf7f2e3eda8c3009cb4081');
-require('../pages/play/index?hash=2bf79ccc23caece38c48da58ea759b5e4a340e24');
+require('./config?hash=249b8f1007e5e19a136ec52fae2da826fac1334b');
+require('../pages/index/index?hash=0c1beb985de9b853dcc110a37c13ceab38ab28fa');
+require('../pages/list/index?hash=4854d8844ddd619eaf5c9e0c37ddf57be5d63ead');
+require('../pages/TV/index?hash=993665f3392fa69b74b4029fa4f019974b5eda81');
+require('../pages/radio/index?hash=a6444541edac707a7104b47ee9de3a16c50f80e9');
+require('../pages/record/index?hash=572afbb2e8f5ee88d38e05484e11f67d80f4deab');
+require('../pages/play/index?hash=0e53efcfd23060739d89e2baca5f7c5d16978322');
+require('../pages/addmusic/index?hash=9076d6c02d2b33e72b85d75e29a657e17ef396dd');
+require('../pages/edit/index?hash=e04e46dd9c74e7f9a0050a6e8fe2c7cf86202d3a');

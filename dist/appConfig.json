@@ -8,7 +8,9 @@
     "pages/TV/index",
     "pages/radio/index",
     "pages/record/index",
-    "pages/play/index"
+    "pages/play/index",
+    "pages/addmusic/index",
+    "pages/edit/index"
   ],
   "usingComponents": {},
   "componentConfig": {},
@@ -29,6 +31,12 @@
       "defaultTitle": "Tipod App"
     },
     "pages/play/index": {
+      "defaultTitle": "Tipod App"
+    },
+    "pages/addmusic/index": {
+      "defaultTitle": "Tipod App"
+    },
+    "pages/edit/index": {
       "defaultTitle": "Tipod App"
     }
   }
