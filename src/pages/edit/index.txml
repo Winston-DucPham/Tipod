@@ -1,20 +1,14 @@
 <view style="background-color: white">
   <view class="videoplay">
-    <video id="video" src="/images/waveform (1).mp4" controls="false" onTimeUpdate="onAudioTimeUpdate"
-      
-    onPlay="onAudioPlay" onEnd="onAudioEnd" onPause="onAudioPause" />
+      <image src="/images/IMG_0266.png" />
   </view>
 
-  <view class="mark">
+  <view class="mark" onTap="navigateTo">
     <image src="/images/addmusic.png" />
   </view>
   <view class="playback-controls">
 
     <view class="col">
-      <view class="play-button" tiki:if="{{!playing}}" onTap="playTap">
-        <image src="/images/record.png" class="playpausebutton" />
-      </view>
-      <block tiki:else>  
 
       <view class="play-button">
         <image src="/images/volume.png" class="playpausebutton" />
@@ -24,11 +18,11 @@
         <image src="/images/record.png" class="playpausebutton" />
       </view>
 
-      <view class="play-button" onTap="navigateTo">
+      <view class="play-button" >
         <image src="/images/done.png" class="playpausebutton" />
       </view>
 
-      </block>
+      
     </view>
   </view>
 </view>

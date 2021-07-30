@@ -15,7 +15,7 @@
       </view>
       <block tiki:else>
 
-        <view class="play-button">
+        <view class="play-button" onTap="navigateTo">
           <image src="/images/edit.png" class="playpausebutton" />
         </view>
 
@@ -24,7 +24,7 @@
           <image src="/images/record.png" class="playpausebutton" />
         </view>
 
-        <view class="play-button" onTap="navigateTo">
+        <view class="play-button" >
           <image src="/images/done.png" class="playpausebutton" />
         </view>
 

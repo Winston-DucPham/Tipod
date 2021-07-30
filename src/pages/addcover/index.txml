@@ -1,0 +1,3 @@
+<view class="page" onTap="navigateTo">
+  <image src="/images/pages.jpg" />
+</view>

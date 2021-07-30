@@ -1,6 +1,6 @@
 <view>
   <text class="title">Podcast</text>
-  <view class="container" >
+  <view class="container">
     <carousel onChange="onChange" class="t-carousel-item">
       <carousel-item class="t-carousel-item">
         <view onTap="navigateTo">
@@ -14,31 +14,35 @@
       </carousel-item>
       <carousel-item class="t-carousel-item">
         <view onTap="navigateTo">
-          <image src="/images/Group 102.png" class="slide3" />
+          <image src="/images/Group 98.png" class="slide3" />
         </view>
       </carousel-item>
       <carousel-item class="t-carousel-item">
         <view onTap="navigateTo">
-          <image src="/images/Group 102.png" class="slide4" />
+          <image src="/images/Group 98.png" class="slide4" />
         </view>
       </carousel-item>
     </carousel>
-    
+
     <text class="top_artist"> Kênh nổi bật </text>
 
     <carousel onChange="onChange">
       <carousel-item>
         <view onTap="navigateTo">
-          <image src="/images/artist.png" class="artists"  />
+          <image src="/images/artist.png" class="artists" />
         </view>
       </carousel-item>
 
       <carousel-item class="t-carousel_slides_artist">
-        <image src="/images/Artist2.png"  class="artists2" />
+        <view onTap="navigateTo">
+          <image src="/images/Artist2.png" class="artists2" />
+        </view>
       </carousel-item>
-      
+
       <carousel-item class="t-carousel_slides_artist">
-        <image src="/images/artist3.png"  class="artists3" />
+        <view onTap="navigateTo">
+          <image src="/images/artist3.png" class="artists3" />
+        </view>
       </carousel-item>
 
 

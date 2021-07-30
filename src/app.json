@@ -7,8 +7,8 @@
     "pages/record/index",
     "pages/play/index",
     "pages/addmusic/index",
-    "pages/edit/index"
-    
+    "pages/edit/index",
+    "pages/addcover/index"
   ],
   
   "defaultTitle": "List",

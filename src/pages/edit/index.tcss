@@ -7,7 +7,7 @@
   height: 834rpx;
   
 }
-.videoplay video{
+.videoplay image{
   
   height: 834rpx;
   width: 100%;
@@ -17,14 +17,14 @@
   justify-content: center;
   align-items: center;
   background-color: white;
+  margin-top: 68rpx;
 }
 .mark image {
   width: 179px;
   height: 49px;
- 
 }
 .playback-controls {
-  margin-top: 100rpx;
+  margin-top: 10rpx;
   display: flex;
   justify-content: center;
   align-items: center;

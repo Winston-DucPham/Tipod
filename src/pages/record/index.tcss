@@ -24,7 +24,7 @@
  
 }
 .playback-controls {
-  margin-top: 100rpx;
+  margin-top: 70rpx;
   display: flex;
   justify-content: center;
   align-items: center;

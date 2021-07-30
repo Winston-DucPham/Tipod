@@ -78,7 +78,7 @@
       <image src="/images/Artist2.png" class="image_circle" />
       <view class="comment">
         <text class="author"> Minh Niệm</text>
-        <text class="text1container">Quyển sách này rất hay, Tiki đang sale chỉ 54k thôi nhé cả nhà!!</text>
+        <text class="text1container">Quyển sách này rất hay, Tiki đang sale chỉ còn 66k</text>
         <image src="/images/Engagements.png" class="share-control" />
       </view>
     </view>

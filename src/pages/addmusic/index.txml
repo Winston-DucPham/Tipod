@@ -2,7 +2,7 @@
   <image src="/images/Group 80.png" />
 </view>
 
-<view class="listmusic">
+<view class="listmusic" onTap="navigateTo">
   <text>Nhạc Piano</text>
   <image src="/images/Group 72.png" />
   <image src="/images/Group 73.png" />

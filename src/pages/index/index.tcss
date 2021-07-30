@@ -49,7 +49,7 @@ body {
 }
 .slide2{
   width: 90%;
-  height: 90%;
+  height: 370rpx;
   margin-left: -52rpx;
  
 }
