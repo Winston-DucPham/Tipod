@@ -5,6 +5,6 @@ Page({
     console.log('onChange: ', e);
   },
   navigateTo(){
-    my.navigateTo({url:'pages/record/index'});
+    my.navigateTo({url:'pages/list/index'});
   }
 });
